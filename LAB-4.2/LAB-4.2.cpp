@@ -5,9 +5,9 @@
 // Табуляція функції, заданої формулою: функція однієї змінної
 // Варіант 18
 
-#include <iostream>
-#include <iomanip>
-#include <cmath>
+#include <iostream>;
+#include <iomanip>;
+#include <cmath>;
 
 using namespace std;
 int main()
@@ -25,7 +25,7 @@ int main()
 	cout << "---------------------------" << endl;
 
 	x = xp;
-	while (x < xk)
+	while (x <= xk)
 	{
 		A = 13.5 - 2 * x;
 		if (x <= -1)
