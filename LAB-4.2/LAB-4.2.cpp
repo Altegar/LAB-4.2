@@ -35,7 +35,9 @@ int main()
 				B = cos(x) / (1 + sin(x) * sin(x));
 			else
 				B = 1 - sin(x) * sin(x);
+
 		y = A - B;
+
 		cout << "|" << setw(7) << setprecision(2) << x
 			<< " |" << setw(10) << setprecision(3) << y
 			<< " |" << endl;
